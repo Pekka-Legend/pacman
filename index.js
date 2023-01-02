@@ -295,7 +295,7 @@ function animate()
     })
     if (keys.up.pressed)
     {
-        pm.position.y -= 300 * deltaTime;
+        pm.position.y -= 400 * deltaTime;
         if (pm.position.x <= 56 + 28 - pm.width / 2) pm.position.x = 56 - pm.width / 2
         else if (pm.position.x <= 112 + 28 - pm.width / 2) pm.position.x = 112 - pm.width / 2
         else if (pm.position.x <= 168 + 28 - pm.width / 2) pm.position.x = 168 - pm.width / 2
@@ -320,7 +320,7 @@ function animate()
     }
     if (keys.left.pressed)
     {
-        pm.position.x -= 300 * deltaTime;
+        pm.position.x -= 400 * deltaTime;
         if (pm.position.y <= 72 + 36 - pm.height / 2) pm.position.y = 72 - pm.height / 2 - 9
         else if (pm.position.y <= 144 + 36 - pm.height / 2) pm.position.y = 144 - pm.height / 2 - 9
         else if (pm.position.y <= 216 + 36 - pm.height / 2) pm.position.y = 216 - pm.height / 2 - 9
@@ -347,7 +347,7 @@ function animate()
     }
     if (keys.right.pressed)
     {
-        pm.position.x += 300 * deltaTime;
+        pm.position.x += 400 * deltaTime;
 
 
 
@@ -372,7 +372,7 @@ function animate()
     }
     if (keys.down.pressed)
     {
-        pm.position.y += 300 * deltaTime;
+        pm.position.y += 400 * deltaTime;
 
 
         if (pm.position.x <= 56 + 28 - pm.width / 2) pm.position.x = 56 - pm.width / 2
