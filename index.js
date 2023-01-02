@@ -397,7 +397,7 @@ function animate()
     }
     SCORE.text = score;
     SCORE.draw()
-    if (score == 64)
+    if (score == 640)
     {
         win = new Text(250, 300, 'You Win!', true, 'white', 90)
         redo = new Text(250, 350, 'Press Space to Play Again', true, 'white', 30)
